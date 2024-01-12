@@ -1,19 +1,19 @@
 #!/usr/bin/python3
-""" Lockboxes"""
+''' Lockboxes'''
 
 
 def canUnlockAll(boxes):
-    """canUnlockAll"""
+    '''canUnlockAll'''
     total_boxes = len(boxes)
-    keys = {0}
+    keys = [0]
     counter = 0
     index = 0
 
     while index < len(keys):
-        setkey = keys.pop()
+        setkey = keys[index]
         for key in boxes[setkey]:
             if 0 < key < total_boxes and key not in keys:
-                keys.add(key)
+                keys.append(key)
                 counter += 1
         index += 1
 
