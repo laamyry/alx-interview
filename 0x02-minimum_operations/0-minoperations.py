@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+'''Minimum Operations'''
 def minOperations(n):
     pasted_chars = 1
     clipboard = 0
