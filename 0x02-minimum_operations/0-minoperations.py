@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 '''Minimum Operations'''
+
+
 def minOperations(n):
+    '''minOperations'''
     pasted_chars = 1
     clipboard = 0
     counter = 0
