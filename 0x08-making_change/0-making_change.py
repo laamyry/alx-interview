@@ -1,3 +1,7 @@
+#!/usr/bin/python3
+"""Change comes from within"""
+
+
 def makeChange(coins, total):
     """makeChange"""
     if not coins or coins is None:
