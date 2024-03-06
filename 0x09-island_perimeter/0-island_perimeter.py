@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-"""Island Perimeter"""
+"""Island Perimeter Problem
+"""
 
 
-def calculate_island_perimeter(grid):
-    """calculate_island_perimeter"""
+def island_perimeter(grid):
+    """island_perimeter"""
 
     perimeter = 0
     rows, cols = len(grid), len(grid[0])
